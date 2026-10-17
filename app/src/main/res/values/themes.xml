@@ -1,0 +1,4 @@
+<resources>
+    <!-- Compose draws the UI; the window theme only needs a dark background without an action bar. -->
+    <style name="Theme.DualWall" parent="android:Theme.Material.NoActionBar" />
+</resources>

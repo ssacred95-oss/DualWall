@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A tall and a wide frame: the portrait and the landscape picture. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- portrait frame -->
+    <path
+        android:fillColor="#FF8AB4F8"
+        android:pathData="M34,30h22a4,4 0,0 1,4 4v40a4,4 0,0 1,-4 4h-22a4,4 0,0 1,-4 -4v-40a4,4 0,0 1,4 -4z" />
+    <!-- landscape frame, overlapping -->
+    <path
+        android:fillColor="#FFF6AEA9"
+        android:pathData="M50,50h26a4,4 0,0 1,4 4v18a4,4 0,0 1,-4 4h-26a4,4 0,0 1,-4 -4v-18a4,4 0,0 1,4 -4z" />
+    <!-- rotate arrow -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M66,32 A14,14 0,0 1,78 44" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M73,44 L83,44 L78,50 Z" />
+</vector>
