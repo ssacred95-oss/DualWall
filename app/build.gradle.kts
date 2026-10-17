@@ -25,6 +25,9 @@ android {
             optimization {
                 enable = true
             }
+            // Personal project without a store listing: sign with the local debug key so the
+            // release APK installs over a debug install (keeps the chosen pictures).
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
